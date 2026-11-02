@@ -5,7 +5,7 @@ import { profile } from "@/lib/profile"
 export function ExperienceSection() {
   const experiences = [
     {
-      period: "Jan 2025 - Present",
+      period: "Jan 2026 - Present",
       title: "Software Developer",
       organisation: "Tatva Wellness Pvt. Ltd. | Remote",
       description:
@@ -17,6 +17,8 @@ export function ExperienceSection() {
       period: "Sep 2025 - Dec 2025",
       title: "Frontend Developer Intern",
       organisation: "White Mirror Solution",
+      description:
+        "Worked with the development team to build responsive, user-friendly web interfaces, turning designs into clean, reusable frontend components.",
       icon: Briefcase,
       iconColor: "bg-[#6366F1]",
     },

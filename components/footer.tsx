@@ -1,4 +1,4 @@
-import { Github, Gitlab, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { Github, Gitlab, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { profile } from "@/lib/profile"
@@ -16,6 +16,7 @@ export function Footer() {
     { label: "GitHub", href: profile.github, icon: Github, color: "bg-[#2F81F7]" },
     { label: "LinkedIn", href: profile.linkedin, icon: Linkedin, color: "bg-[#2F81F7]" },
     { label: "GitLab", href: profile.gitlab, icon: Gitlab, color: "bg-[#FF6B7A]" },
+    { label: "Instagram", href: profile.instagram, icon: Instagram, color: "bg-[#FF6B7A]" },
   ]
 
   return (
